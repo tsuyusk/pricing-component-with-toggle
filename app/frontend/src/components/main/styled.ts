@@ -35,7 +35,7 @@ export const Title = styled.div`
 export const Price = styled.div`
   display: flex;
   align-items: flex-start;
-  font-size: 2em;
+  font-size: 3.5em;
   font-weight: bold;
   margin: 8px;
   &::before {
@@ -83,4 +83,8 @@ export const Button = styled.button`
     border: 1px solid ${(props: Props) => props.main ? "#fff" : "#8786c6"};
     background-color: ${(props: Props) => props.main ? "#9094eb" : "#fff"};
   }
+`;
+
+export const Caps = styled.span`
+  text-transform: uppercase;
 `;

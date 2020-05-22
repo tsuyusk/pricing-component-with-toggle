@@ -16,12 +16,12 @@ export const Item = styled.div`
   flex-direction: column;
   border-radius: 10px;
   align-items: center;
-  padding: ${(props: Props) => props.main ? "4vw" : "3.2vw"};
+  padding: ${(props: Props) => props.main ? "30px" : "23px"};
   background-color: ${(props: Props) => props.main ? "#9094EB" : "#fff"};
   color: ${(props: Props) => props.main ? "#fff" : "#494C60"};
   box-shadow: ${(props: Props) => props.main ? "#fff" :"#ddd"} 1px 1px 10px;
   @media screen and (max-width: 700px) {
-    padding: 4vw;
+    padding: 23px;
     margin: 5px;
   }
 `;

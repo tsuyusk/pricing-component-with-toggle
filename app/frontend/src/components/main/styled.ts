@@ -73,7 +73,7 @@ export const Button = styled.button`
   display: block;
   border: none;
   width: 100%;
-  height: 6vh;
+  height: 40px;
   cursor: pointer;
   background-color: ${(props: Props) => props.main ? "#fff" : "#9094EB" };
   color: ${(props: Props) => props.main ? "#8786C6" : "#fff"};

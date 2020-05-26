@@ -18,7 +18,7 @@ const HeaderScreen: React.FC<Props> = ({handleChange}) => {
       <Row>
         <Text>Anually</Text>
         <Switch onChange={onChange} checked={checked} />
-        <Text>Mensally</Text>
+        <Text>Monthly</Text>
       </Row>
     </Header>
   );
